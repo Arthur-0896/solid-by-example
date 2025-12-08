@@ -1,0 +1,27 @@
+# General
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Node / TypeScript
+node_modules/
+dist/
+coverage/
+.env
+
+# Go
+*.exe
+*.test
+vendor/
+
+# Java
+*.class
+*.jar
+build/
+target/
+
+# Python
+__pycache__/
+*.pyc
+venv/
