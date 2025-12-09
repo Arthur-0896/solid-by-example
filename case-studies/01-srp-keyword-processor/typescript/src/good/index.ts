@@ -1,15 +1,25 @@
-import { SearchVolumeService } from "good/services/Api";
-import { CsvFileParser } from "./services/Parser";
-import { StatsRepository } from "./services/Repository";
-import { KeywordValidator } from "./services/Validator";
+import { SearchVolumeService } from "./services/API.ts";
+import { CsvFileParser } from "./services/Parser.ts";
+import { StatsRepository } from "./services/Repository.ts";
+import { KeywordValidator } from "./services/Validator.ts";
 
 class KeywordOrchestrator {
+   private parser: CsvFileParser;
+   private validator: KeywordValidator;
+   private api: SearchVolumeService;
+   private repo: StatsRepository;
+
    constructor(
-      private parser: CsvFileParser,
-      private validator: KeywordValidator,
-      private api: SearchVolumeService,
-      private repo: StatsRepository
-   ) {}
+      parser: CsvFileParser,
+      validator: KeywordValidator,
+      api: SearchVolumeService,
+      repo: StatsRepository
+   ) {
+      this.parser = parser;
+      this.validator = validator;
+      this.api = api;
+      this.repo = repo;
+   }
 
    run(filePath: string) {
       const keywords = this.parser.read(filePath);
