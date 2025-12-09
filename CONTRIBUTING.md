@@ -13,6 +13,7 @@ To ensure consistency and quality across all language implementations, please re
    -  [2. The Golden Rule: Contrast is Key](#2-the-golden-rule-contrast-is-key)
    -  [3. Documentation Requirements](#3-documentation-requirements)
    -  [4. Core Philosophy](#4-core-philosophy)
+-  [🐛 Reporting Issues](#reporting-issues)
 -  [📥 Pull Request Process](#pull-request-process)
 -  [🤝 Code of Conduct](#code-of-conduct)
 
@@ -84,6 +85,18 @@ Inside your language folder, you must include a `README.md`. Please copy the for
 -  **Keep it Simple**: Avoid heavy frameworks if possible. Standard libraries are preferred so the code remains focused on the design pattern, not framework syntax.
 -  **Runnable Code**: We want users to clone and run. Ensure your instructions work.
 -  **Educational Comments**: Use comments to explain _why_ a change was made in the `good` version. Treat the code as a tutorial.
+
+## <a id="reporting-issues"></a>🐛 Reporting Issues
+
+Found a bug? Want to request a new case study?
+
+We use a structured **Issue Form** to ensure we have all the details needed to help you. When you [open a new issue](../../issues/new), you'll be guided to provide:
+
+-  A clear description
+-  Steps to reproduce (for bugs)
+-  Current vs. Expected behavior
+
+Please fill out these fields as best as you can!
 
 ## <a id="pull-request-process"></a>📥 Pull Request Process
 
