@@ -90,7 +90,7 @@ Inside your language folder, you must include a `README.md`. Please copy the for
 
 Found a bug? Want to request a new case study?
 
-We use a structured **Issue Form** to ensure we have all the details needed to help you. When you [open a new issue](../../issues/new), you'll be guided to provide:
+We use a structured **Issue Form** to ensure we have all the details needed to help you. When you [open a new issue](https://github.com/MehediMubin/solid-by-example/issues/new), you'll be guided to provide:
 
 -  A clear description
 -  Steps to reproduce (for bugs)
