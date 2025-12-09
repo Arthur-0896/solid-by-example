@@ -25,10 +25,10 @@ We love seeing new languages! If you want to solve an existing case study in a n
 
 ### 1. Directory Structure
 
-Navigate to the specific Case Study folder and create a directory for your language. It **must** follow this exact structure to maintain consistency:
+Navigate to the specific Case Study folder (inside `case-studies/`) and create a directory for your language. It **must** follow this exact structure to maintain consistency:
 
 ```text
-01-srp-keyword-processor/
+case-studies/01-srp-keyword-processor/
 ├── typescript/
 ├── rust/            <-- Your new folder
 │   ├── bad/         <-- The code violating the principle
