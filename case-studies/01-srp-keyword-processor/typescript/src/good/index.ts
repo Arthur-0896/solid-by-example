@@ -1,4 +1,4 @@
-import { SearchVolumeService } from "./services/Api";
+import { SearchVolumeService } from "good/services/Api";
 import { CsvFileParser } from "./services/Parser";
 import { StatsRepository } from "./services/Repository";
 import { KeywordValidator } from "./services/Validator";
