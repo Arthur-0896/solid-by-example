@@ -32,7 +32,7 @@ This project is language-agnostic. While the initial case studies are written in
 
 Want to add a solution in **Go, Rust, or Java**? We would love that!
 
--  **Found a bug?** [Open an Issue](../../issues/new).
+-  **Found a bug?** [Open an Issue](https://github.com/MehediMubin/solid-by-example/issues/new).
 -  **Ready to code?** Read [**CONTRIBUTING.md**](./CONTRIBUTING.md) to ensure your code matches our structure.
 
 ## ⭐ Support
