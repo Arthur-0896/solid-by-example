@@ -1,0 +1,23 @@
+{
+   "name": "01-srp-keyword-processor-typescript",
+   "version": "1.0.0",
+   "description": "TypeScript implementation for SRP case study",
+   "main": "index.js",
+   "scripts": {
+      "start:bad": "ts-node bad/index.ts",
+      "start:good": "ts-node good/index.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+      "solid",
+      "srp",
+      "typescript"
+   ],
+   "author": "",
+   "license": "MIT",
+   "devDependencies": {
+      "ts-node": "^10.9.1",
+      "typescript": "^5.2.2",
+      "@types/node": "^20.8.2"
+   }
+}
