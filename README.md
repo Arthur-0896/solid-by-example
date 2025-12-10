@@ -16,7 +16,7 @@ This project is language-agnostic. While the initial case studies are written in
 | #      | Principle | Case Study Topic                                                           | Key Takeaway                                                                     |
 | ------ | --------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | **01** | **SRP**   | [**Keyword Processing Pipeline**](./case-studies/01-srp-keyword-processor) | Breaking a monolithic "God Handler" into Service, Parser, and Repository layers. |
-| **02** | **OCP**   | _Coming Soon..._                                                           | How to add features without modifying existing code.                             |
+| **02** | **OCP**   | [**Payroll System**](./case-studies/02-ocp-payroll-system)                 | How to add features without modifying existing code.                             |
 | **03** | **LSP**   | _Coming Soon..._                                                           | Subtyping without breaking the system.                                           |
 | **04** | **ISP**   | _Coming Soon..._                                                           | Keeping interfaces small and client-specific.                                    |
 | **05** | **DIP**   | _Coming Soon..._                                                           | Decoupling high-level logic from low-level details.                              |
