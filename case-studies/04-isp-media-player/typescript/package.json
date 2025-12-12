@@ -1,0 +1,24 @@
+{
+   "name": "04-isp-media-player-typescript",
+   "version": "1.0.0",
+   "description": "TypeScript implementation for ISP case study",
+   "type": "module",
+   "main": "index.js",
+   "scripts": {
+      "start:bad": "tsx src/bad/index.ts",
+      "start:good": "tsx src/good/index.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+      "solid",
+      "isp",
+      "typescript"
+   ],
+   "author": "",
+   "license": "MIT",
+   "devDependencies": {
+      "tsx": "^4.0.0",
+      "typescript": "^5.2.2",
+      "@types/node": "^20.8.2"
+   }
+}
