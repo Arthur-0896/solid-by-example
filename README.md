@@ -19,7 +19,7 @@ This project is language-agnostic. While the initial case studies are written in
 | **02** | **OCP**   | [**Payroll System**](./case-studies/02-ocp-payroll-system)                 | How to add features without modifying existing code.                             |
 | **03** | **LSP**   | [**Event Ticketing System**](./case-studies/03-lsp-event-system)           | Subtyping without breaking the system.                                           |
 | **04** | **ISP**   | [**Media Player**](./case-studies/04-isp-media-player)                     | Keeping interfaces small and client-specific.                                    |
-| **05** | **DIP**   | _Coming Soon..._                                                           | Decoupling high-level logic from low-level details.                              |
+| **05** | **DIP**   | [**Order Processor**](./case-studies/05-dip-order-processor)               | Decoupling high-level logic from low-level details.                              |
 
 ## 🛠 How to Use This Repo
 
