@@ -7,6 +7,10 @@
 
 This repository contains real-world case studies demonstrating how to apply **SOLID principles**. Unlike other tutorials that use abstract "Animal/Dog" examples, we use realistic scenarios (e.g., Payment Gateways, Data Pipelines) to show the actual business value of clean architecture.
 
+## ⭐ Support
+
+If this repository helped you understand SOLID better, please give it a **Star**! It helps others find these resources.
+
 ## 🌍 A Polyglot Repository
 
 This project is language-agnostic. While the initial case studies are written in **TypeScript**, we welcome contributions in **Go, Java, Rust, C#, Python**, and more.
@@ -34,7 +38,3 @@ Want to add a solution in **Go, Rust, or Java**? We would love that!
 
 -  **Found a bug?** [Open an Issue](https://github.com/MehediMubin/solid-by-example/issues/new).
 -  **Ready to code?** Read [**CONTRIBUTING.md**](./CONTRIBUTING.md) to ensure your code matches our structure.
-
-## ⭐ Support
-
-If this repository helped you understand SOLID better, please give it a **Star**! It helps others find these resources.
