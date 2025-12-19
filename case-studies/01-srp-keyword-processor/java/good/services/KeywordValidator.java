@@ -1,3 +1,4 @@
+package good.services;	
 /**
  * @author Arthur Tristram, Software Engineer(Java)
  * @since 2025-12-18
@@ -9,6 +10,6 @@ public class KeywordValidator {
      * @return boolean true if valid, false if invalid
      */
     public boolean isValid(String term) {
-        return term.length() > 0;
+        return !term.isEmpty();
     }
 }

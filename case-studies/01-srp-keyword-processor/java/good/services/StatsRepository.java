@@ -1,3 +1,7 @@
+package good.services;
+
+import good.KeywordStats;
+
 /**
  * @author Arthur Tristram, Software Engineer(Java)
  * @since 2025-12-18

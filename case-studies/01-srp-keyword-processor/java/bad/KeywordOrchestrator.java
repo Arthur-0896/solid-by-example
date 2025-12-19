@@ -1,3 +1,5 @@
+package bad;
+
 import java.util.List;
 import java.util.Objects;
 
@@ -10,7 +12,7 @@ import java.util.Objects;
  */
 public class KeywordOrchestrator {
 
-    private static final String filePath = "keywords.csv";
+    private static final String FILE_PATH = "keywords.csv";
 
     /**
      * @param filePath path of the file to be read
@@ -18,23 +20,23 @@ public class KeywordOrchestrator {
      * @implNote performs all actions in a single method (Violates SR)
      */
     public void processKeywords(String filePath) {
-        System.out.printf("Opening file at %s...\n", filePath);
+        System.out.printf("Opening file at %s...%n", filePath);
         // 1. Reading File Logic (Mixed responsibility)
 
         List<String> rawData = List.of("buy shoes", "", "best running shoes", "shoes");
 
         for (String row : rawData) {
             // 2. Validation Logic (Mixed responsibility)
-            if (Objects.isNull(row) || row.length() == 0) {
+            if (Objects.isNull(row) || row.isBlank()) {
                 continue;
             }
 
             // 3. API Logic (Mixed responsibility)
-            System.out.printf("Checking API for: %s\n", row);
+            System.out.printf("Checking API for: %s%n", row);
             double volume = Math.floor(Math.random() * 1000); // Fake API call
 
             // 4. Database Logic (Mixed responsibility)
-            System.out.printf("INSERT INTO keyword_stats (term, volume) VALUES('%s', %.0f)\n", row, volume);
+            System.out.printf("INSERT INTO keyword_stats (term, volume) VALUES('%s', %.0f)%n", row, volume);
         }
     }
     // Usage
@@ -45,6 +47,6 @@ public class KeywordOrchestrator {
      */
     public static void main(String[] args) {
         KeywordOrchestrator keywordOrchestrator = new KeywordOrchestrator();
-        keywordOrchestrator.processKeywords(filePath);
+        keywordOrchestrator.processKeywords(FILE_PATH);
     }
 }

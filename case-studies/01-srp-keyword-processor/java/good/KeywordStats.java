@@ -1,3 +1,4 @@
+package good;
 /**
  * @author Arthur Tristram, Software Engineer(Java)
  * @since 2025-12-18

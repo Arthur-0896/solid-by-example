@@ -1,4 +1,10 @@
+package good;
 import java.util.List;
+
+import good.services.CsvFileParser;
+import good.services.KeywordValidator;
+import good.services.SearchVolumeService;
+import good.services.StatsRepository;
 
 /**
  * @author Arthur Tristram, Software Engineer (Java)
@@ -12,7 +18,7 @@ public class KeywordOrchestrator {
     private SearchVolumeService api;
     private StatsRepository repo;
 
-    private static final String filePath = "data.csv";
+    private static final String FILE_PATH = "data.csv";
 
     public KeywordOrchestrator(CsvFileParser parser, KeywordValidator validator, SearchVolumeService api,
             StatsRepository repo) {
@@ -46,6 +52,6 @@ public class KeywordOrchestrator {
         KeywordOrchestrator keywordOrchestrator = new KeywordOrchestrator(new CsvFileParser(), new KeywordValidator(),
                 new SearchVolumeService(), new StatsRepository());
 
-        keywordOrchestrator.run(filePath);
+        keywordOrchestrator.run(FILE_PATH);
     }
 }

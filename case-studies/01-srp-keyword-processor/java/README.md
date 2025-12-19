@@ -11,8 +11,9 @@
 - `good/KeywordOrchestrator.java` and related classes: Example that follows SRP using separate service classes
 
 ## How to Compile and Run
+If you're using VSCode and have the Java extension, just open good/KeywordOrchestrator.java or bad version and click 'run' that appears above the main method. Other IDEs will have different processes. If you want to use the command line, do the following:
 
-### 1. Compile the Code
+### 1. Compile the Code to a Build Directory
 
 Navigate to the `java` directory:
 
@@ -20,10 +21,16 @@ Navigate to the `java` directory:
 cd case-studies/01-srp-keyword-processor/java
 ```
 
-Compile all Java files (recommended):
+Create a build directory (if it doesn't exist):
 
 ```bash
-javac bad/*.java good/*.java
+mkdir build
+```
+
+Compile all Java files to the build directory:
+
+```bash
+javac -d build bad/*.java good/*.java
 ```
 
 ### 2. Run the "Bad" Version
@@ -31,7 +38,7 @@ javac bad/*.java good/*.java
 This version violates SRP by combining all logic in one class.
 
 ```bash
-java bad.KeywordOrchestrator
+java -cp build bad.KeywordOrchestrator
 ```
 
 ### 3. Run the "Good" Version
@@ -39,7 +46,7 @@ java bad.KeywordOrchestrator
 This version follows SRP by delegating responsibilities to separate classes.
 
 ```bash
-java good.KeywordOrchestrator
+java -cp build good.KeywordOrchestrator
 ```
 
 ## Notes

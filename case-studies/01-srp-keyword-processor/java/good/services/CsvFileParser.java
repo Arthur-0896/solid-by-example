@@ -1,3 +1,4 @@
+package good.services;
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ public class CsvFileParser {
      * @return a list containing file records
      */
     public List<String> read(String fileName) {
-        System.out.printf("Reading file: %s\n", fileName);
+        System.out.printf("Reading file: %s%n", fileName);
         return List.of("buy shoes", "", "best running shoes", "shoes");
     }
 }
